@@ -1,0 +1,9 @@
+package mavenpackage.mavenproject;
+@Entity
+@Table(name="emp500")
+public class Employee {
+@Id
+private int id;
+private String firstname,lastname;
+
+}

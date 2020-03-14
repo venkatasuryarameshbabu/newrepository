@@ -1,0 +1,8 @@
+package com.hibernate.mypack;
+
+public class Main {
+public static void main(String[] args)
+{
+	
+}
+}

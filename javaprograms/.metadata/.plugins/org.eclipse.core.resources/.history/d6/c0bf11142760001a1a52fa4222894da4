@@ -1,0 +1,31 @@
+import java.util.Scanner;
+import java.lang.Math;
+class example{
+    
+    public static void main(String[] args)
+    {
+        
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the standard:");
+        int standard=sc.nextInt();
+        if(standard>=1&&standard<=12)
+        {
+          System.out.println("Nila gets "+calculate(standard)+"pencils");
+        }
+        else{
+            System.out.println("Invalid Standard");
+        }
+        
+    }
+    public static int calculate(int standard)
+        {
+            int sum=0;
+            for(int i=1;i<=standard;i++)
+            {
+            	System.out.println(sum);
+                sum=sum+(int)Math.pow(i,i);
+            }
+            return sum;
+            
+        }
+}

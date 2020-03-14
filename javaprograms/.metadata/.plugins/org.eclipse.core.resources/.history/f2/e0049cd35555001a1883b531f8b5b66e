@@ -1,0 +1,37 @@
+package main;
+
+import java.util.List;
+import java.util.Scanner;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import dao.studentDaoImpl;
+import data.student;
+
+public class TestStudent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+ApplicationContext context=new ClassPathXmlApplicationContext("applicationcontext.xml");
+        studentDaoImpl sdao=(studentDaoImpl)context.getBean("edao");
+	   System.out.println("Enter student id:");
+	   int id=sc.nextInt();
+	   System.out.println("Enter student name:");
+       String name=sc.next();
+       System.out.println("Enter student age:");
+       int age=sc.nextInt();
+   student student=new student();
+   student.setId(id);
+	student.setName(name);
+	student.setAge(age);
+	sdao.create(student);
+	//List<student> students=sdao.liststudents();
+	System.out.println("enter the value to delete:");
+	sdao.delete(sc.nextInt());
+	System.out.println("enter the value to update your table");
+	sdao.update(student);
+	}
+
+}

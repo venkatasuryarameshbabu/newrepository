@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Passwordverification pv=new Passwordverification();
+		pv.verify(s1);
+		System.out.println("enter the password to check:");
+		Scanner sc=new Scanner(System.in);
+		String s1=sc.next();
+		String s = null;
+		if(s1.equals(s))
+		  {
+			  System.out.println("entered password is correct format");
+		  }
+		else
+		{
+			System.out.println("entered password is not a correct format");
+		}
+	}
+
+}

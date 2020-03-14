@@ -1,0 +1,11 @@
+package exampleproject;
+
+public class lambdaprogram {
+	public static void main(String[] args) {
+		Mythread extends Thread
+		{
+			
+		}
+	}
+
+}

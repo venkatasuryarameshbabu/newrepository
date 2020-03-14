@@ -1,0 +1,46 @@
+package Assessment;
+import java.util.ArrayList;
+import java.util.Scanner;
+public class ArrayList 
+{
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+		int n = Integer.parseInt(sc.nextLine());
+		ArrayList<Integer> a1 = new ArrayList<Integer>();
+		ArrayList<Integer> a2 = new ArrayList<Integer>();
+		for (int i = 0; i < n; i++)
+			a1.add(Integer.parseInt(sc.nextLine()));
+		for (int i = 0; i < n; i++)
+			a2.add(Integer.parseInt(sc.nextLine()));
+		char c = sc.nextLine().charAt(0);
+		System.out.println(getvalues(a1, a2, c));
+}
+public static ArrayList<Integer> getvalues(ArrayList<Integer> a1,ArrayList<Integer> a2, char c) 	
+{
+	ArrayList<Integer> op1 = new ArrayList<Integer>();
+	int k = 0;
+	switch (c) {
+	case '+':
+		a1.removeAll(a2);
+		a1.addAll(a2);
+			op1 = a1;
+			break;
+	case '*':
+		a1.retainAll(a2);
+		op1 = a1;
+		break;
+	case '-':
+		for (int i = 0; i < a1.size(); i++) {
+			k = 0;
+		for (int j = 0; j < a2.size(); j++) {
+			if (a1.get(i) == a2.get(j))
+				k = 1;
+		}
+		if (k == 0)
+			op1.add(a1.get(i));
+		}
+		break;
+	}
+	return op1;
+  }
+}

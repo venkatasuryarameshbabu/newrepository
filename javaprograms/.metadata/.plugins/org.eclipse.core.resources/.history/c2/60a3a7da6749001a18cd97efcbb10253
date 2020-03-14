@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Servlet login example</title>
+</head>
+<body>
+<h2>welcome to login application by cookie</h2>
+<a href="login.html">login</a>
+<a href="loginservlet">Logout</a>
+<a href="profileservlet">Profile</a>
+</body>
+</html>

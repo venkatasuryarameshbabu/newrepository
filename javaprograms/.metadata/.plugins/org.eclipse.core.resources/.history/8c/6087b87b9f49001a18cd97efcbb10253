@@ -1,0 +1,21 @@
+package example;
+
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
+public class StringTokenexample {
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		String s=sc.nextLine();
+		StringTokenizer str=new StringTokenizer(s," ");
+		String s1=new nextToken();
+		while(str!=null)
+		{
+			char ch=s1.charAt(s1.length()-1);
+			System.out.println(ch+"$");
+
+		}
+	}
+
+}

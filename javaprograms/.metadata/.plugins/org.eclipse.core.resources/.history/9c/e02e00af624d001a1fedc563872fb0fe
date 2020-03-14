@@ -1,0 +1,29 @@
+import java.util.HashMap;
+import java.util.Scanner;
+import java.util.HashMap;
+public class Hash1 {
+	public static void main(String[] args)
+	{
+	Scanner s=new Scanner(System.in);
+	System.out.println("enter no of employees");
+	int noofemployees=s.nextInt();
+HashMap<Integer,String> h1=new HashMap<Integer,String>();
+     for(int i=0;i<noofemployees;i++)
+     {
+    	 h1.put(s.nextInt(),s.next());
+     }
+     //int noofemployees2=s.nextInt();
+     HashMap<Integer,String> h2=new HashMap<Integer,String>();
+     System.out.println("enter no of employees:");
+     int noofemployees2=s.nextInt();
+     for(int i=0;i<noofemployees2;i++)
+     {
+    	 h2.put(s.nextInt(),s.next());
+     }
+	System.out.println(h1);
+	System.out.println(h2);
+	public void increase()	{
+		
+	}
+	}
+	}

@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class CustomerDetails
+{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the no of pizzas bought:");
+        String s=sc.nextLine();
+        System.out.println("Enter the no of puffs bought:");
+        String s1=sc.nextLine();
+        System.out.println("Enter the no of cool drinks bought:");
+        String s2=sc.nextLine();
+        System.out.println("Bill Details");
+        System.out.println("No of pizzas:"+s);
+        System.out.println("No of puffs:"+s1);
+        System.out.println("No of cooldrinks:"+s2);
+        System.out.println("Total price="+((s*100)+(s1*20)+(s2*10)));
+        System.out.println("ENJOY THE SHOW!!!");
+    }
+}

@@ -1,0 +1,14 @@
+package example2;
+
+public class Trimn {
+public static void main(String[] args)
+{
+	/*String s="Wild";
+	String s2="hai";
+	String s3="bye";
+	String result=s.trim()+s2.trim()+s3.trim();
+	System.out.println(result);*/
+	String obj="I LIKE JAVA";
+	System.out.println("");
+}
+}

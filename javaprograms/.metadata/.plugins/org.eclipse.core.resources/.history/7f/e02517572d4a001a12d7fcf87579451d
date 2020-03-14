@@ -1,0 +1,20 @@
+package Assessment;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class Jdbcprogram {
+	public static void main(String[] args)
+	{
+		try {
+			DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+			Connection cnctn=DriverManager.getConnection("jdbc:mysql://localhost:3306/mysql","root","root")
+			Statement stmnt=cnctn.createStatement();
+			String query="insert into table employee";
+			ResultSet rs=stmnt.executeQuery(query);
+		}
+	}
+
+}

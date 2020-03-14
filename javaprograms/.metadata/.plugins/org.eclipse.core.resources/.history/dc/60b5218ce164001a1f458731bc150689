@@ -1,0 +1,8 @@
+package com.examples;
+
+public class MyTest1 {
+@Before
+public void beforeTest() {
+	System.out.println("This is from before block");
+}
+}

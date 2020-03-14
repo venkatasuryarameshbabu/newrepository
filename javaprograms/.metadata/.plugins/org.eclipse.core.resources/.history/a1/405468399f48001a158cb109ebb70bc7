@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>registration page</title>
+</head>
+<body>
+<form action="http://localhost:8081/webproject/registrationservlet">
+<table>
+<tr><td>employee name</td><td><input type="text" name="name"/></td></tr></br>
+<tr><td>employee dept</td><td><input type="text" name="dept"/></td></tr></br>
+<tr><td>employee desg</td><td><input type="text" name="desg"/></td></tr></br>
+<tr><td>employee company</td><td><input type="text" name="company"/></td></tr></br>
+<tr><td>employee mobileno</td><td><input type="text" name="mobile"/></td></tr></br>
+<tr><td>employee emailid</td><td><input type="text" name="email"/></td></tr></br>
+      <input type="submit" value="register">
+   </table>
+</form>
+</body>
+</html>

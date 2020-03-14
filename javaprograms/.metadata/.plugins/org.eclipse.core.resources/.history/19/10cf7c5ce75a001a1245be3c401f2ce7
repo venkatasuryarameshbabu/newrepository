@@ -1,0 +1,12 @@
+package Ex1;
+
+import java.util.ArrayList;
+
+public class UserMain {
+public static boolean checkTripplets (int a[i])
+{
+	for(int i=0;i<s1.length();i++)
+	
+		
+}
+}

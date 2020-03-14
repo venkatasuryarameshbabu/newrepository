@@ -1,0 +1,11 @@
+package junittesexample;
+
+import org.junit.jupiter.api.Test;
+
+public class TestclassA {
+@Test
+public void display()
+{
+	System.out.println("inside the display1 of a class");
+}
+}

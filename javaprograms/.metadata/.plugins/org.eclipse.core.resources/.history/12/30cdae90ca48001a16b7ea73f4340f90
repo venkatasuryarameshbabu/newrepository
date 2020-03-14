@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert into table</title>
+</head>
+<body>
+<form action="http://localhost:8081:/task1/servlet1">
+        enter name:<input type="text" name="name"></br>
+        enter department:<input type="text" name="department"></br>
+        enter degisnation:<input type="text" name="designation"></br>
+        <input type="submit" value="send">
+</form>
+</body>
+</html>

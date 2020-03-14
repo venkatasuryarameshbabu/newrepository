@@ -1,0 +1,20 @@
+package example;
+interface Mathematics{
+	public int add(int a,int b);
+}
+public class maths implements Mathematics{
+public static void main(String[] args)
+{
+	Mathematics s=(a,b)->{
+				return a+b;
+	};
+	System.out.println("s.add(2,4)");
+}
+
+@Override
+public int add(int a, int b) {
+	// TODO Auto-generated method stub
+	return 0;
+}
+
+}

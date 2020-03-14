@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+</head>
+<body>
+<h1></h1>
+name:<input type="text" value="name"/></br>
+password:<input type="text" value="password"/></br>
+   <input type="submit" value="login"/>
+</body>
+</html>

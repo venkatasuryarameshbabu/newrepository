@@ -1,0 +1,9 @@
+package com.examples;
+
+public class Class2 {
+@Test
+public void test1()
+{
+	Class1 c=new Class1();
+}
+}

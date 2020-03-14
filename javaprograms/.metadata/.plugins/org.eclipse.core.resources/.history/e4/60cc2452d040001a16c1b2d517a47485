@@ -1,0 +1,14 @@
+package jdbcpro;
+import java.sql.*;
+public class kothaupdatejdbcmethods {
+	public static void main(String[] args)throws ClassNotFoundException,SQLException {
+		DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());;
+		Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/mysql","root","root");
+Statement statement=connection.createStatement();
+		String query="insert into  customer_master values"  + "("a10009","c00009","b00017")";
+    int count=statement.executeUpdate(query);
+    System.out.println(query);
+    statement.close();
+    connection.close();
+	}
+	}

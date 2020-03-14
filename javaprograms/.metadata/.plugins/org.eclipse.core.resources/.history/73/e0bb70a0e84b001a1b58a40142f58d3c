@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="http://localhost:8081//jsEexamples/validate.jsp"/></br>
+Enter Login id:<input type="text name="first"/></br>
+Enter password:<input type="text" name="second"/></br>
+<input type="submit" value="retrieve"/>
+</body>
+</html>

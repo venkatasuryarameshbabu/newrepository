@@ -1,0 +1,6 @@
+package suiteexamples;
+
+public class Junittestsuite {
+@RunWith(Suite.class)
+@Suite.SuiteClasses({Junittestunit1.class,Junittestunit2.class})
+}

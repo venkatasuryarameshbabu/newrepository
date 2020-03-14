@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+</head>
+<body>
+<form="loginservlet" method="post">
+name:<input type="text" value="name"/></br>
+password:<input type="text" value="password"/></br>
+   <input type="submit" value="login"/>
+</form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<FORM ACTION="/maths.jsp "/>
+enter first element:<input type="text" name="name"/></br>
+enter the Second element:<input type="text" name="name"/></br>
+<input type="submit" value="click"/>
+</FORM>
+</body>
+</html>

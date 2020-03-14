@@ -1,0 +1,11 @@
+127.0.0.1 - - [04/Mar/2020:14:21:57 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [04/Mar/2020:14:21:57 +0530] "GET /Finalassessmentquestion/assessment.html HTTP/1.1" 200 3256
+127.0.0.1 - - [04/Mar/2020:16:31:33 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [04/Mar/2020:16:31:34 +0530] "GET /Finalassessmentjavaquestion/ HTTP/1.1" 404 741
+0:0:0:0:0:0:0:1 - - [04/Mar/2020:16:31:54 +0530] "GET /Finalassessmentjavaquestion/WEB-INF/classes/ctsproject/VarunTourTest.java HTTP/1.1" 404 682
+127.0.0.1 - - [04/Mar/2020:16:42:13 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [04/Mar/2020:16:42:13 +0530] "GET /Finalassessmentjavaquestion/WEB-INF/classes/utilities/DBHandler.java HTTP/1.1" 404 682
+127.0.0.1 - - [04/Mar/2020:17:07:21 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [04/Mar/2020:17:07:22 +0530] "GET /Finalassessmentjavaquestion/WEB-INF/classes/ctsproject/VarunTourTest.java HTTP/1.1" 404 682
+127.0.0.1 - - [04/Mar/2020:17:16:37 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [04/Mar/2020:17:16:37 +0530] "GET /Finalassessmentjavaquestion/WEB-INF/classes/ctsproject/TravelAgency.java HTTP/1.1" 404 682

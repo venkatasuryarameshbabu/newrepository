@@ -1,0 +1,7 @@
+
+public class Passwordverification {
+   public void verify()
+   {
+	   String s="(?=.*d{1}).(?=.*[@#$]).{6,20}";
+   }
+}

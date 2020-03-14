@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        <bean id="rei" class="springexamples.Address">
+        <constructor-arg value="10"/>
+        <constructor-arg value="mg road"/>
+        <constructor-arg value="bengaluru"/>
+     </bean>
+     <bean id="sarsarle" class="springexamples.userdefinedconstruct">
+     <constructor-arg>
+      <ref bean="rei"/>
+     </constructor-arg>
+     </bean>
+     </beans>

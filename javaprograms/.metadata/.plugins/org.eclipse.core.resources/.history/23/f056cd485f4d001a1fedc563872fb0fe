@@ -1,0 +1,11 @@
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Hash1 {
+	public static void main(String[] args)
+	{
+	Scanner s=new Scanner(System.in);
+	System.out.println("enter no of employees");
+	int noofemployees=s.nextInt();
+}
+	}

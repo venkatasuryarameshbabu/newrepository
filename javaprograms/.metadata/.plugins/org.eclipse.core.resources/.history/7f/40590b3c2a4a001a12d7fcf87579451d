@@ -1,0 +1,17 @@
+package Assessment;
+
+import java.util.Scanner;
+
+public static validation()
+{
+	if(s.matches)
+}
+
+public class Pan {
+	public static void main(String[] args)
+	{
+		Scanner r=new Scanner(System.in);
+		String s=r.next();
+	}
+
+}

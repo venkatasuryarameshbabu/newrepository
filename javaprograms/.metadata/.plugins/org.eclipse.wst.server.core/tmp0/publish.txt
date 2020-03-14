@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Wed Mar 04 17:25:15 IST 2020
+org.eclipse.jst.jee.server\:/binary\:C\:\\Program\ Files\\Apache\ Software\ Foundation\\Tomcat\ 8.5\\lib\\tomcat-websocket.jar=WEB-INF/lib/tomcat-websocket.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Program\ Files\\Apache\ Software\ Foundation\\Tomcat\ 8.5\\lib\\jasper.jar=WEB-INF/lib/jasper.jar

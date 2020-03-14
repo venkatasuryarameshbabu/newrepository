@@ -1,0 +1,7 @@
+989/CHM,chennai,Mumbai,3000,15
+201/DEC,Delhi,chennai,4000,9
+907-CHG,chennai,Goa,3000,15
+102COCH,Coimbatore,chennai,2000,3
+301/AGD,Agra,Delhi,1333,7
+3021/AGG,Agra,Goa,1033,3
+215/KOM,Kochi,Mumbai,5555,5

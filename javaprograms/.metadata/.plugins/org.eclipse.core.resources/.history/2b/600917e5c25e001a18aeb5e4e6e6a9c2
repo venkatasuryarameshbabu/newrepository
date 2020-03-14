@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Passwordverification {
+   public void verify()
+   {
+	   String s="(?=.*d{1}).(?=.*[@#$]).{6,20}";
+		
+       System.out.println("enter the password to check:");
+	Scanner sc=new Scanner(System.in);
+  
+  
+	if(sc.equals(s))
+	  {
+		  System.out.println("entered password is correct format");
+	  }
+	else
+	{
+		System.out.println("entered password is not a correct format");
+	}
+	   }
+}

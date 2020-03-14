@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+  <bean id="hai" class="springexamples.Person">
+    <property name="name" value="surya"/>
+    <property name="id" value="844347"/>
+    <property name="dep" value="software"/>  
+    <constructor-arg value="hello"/>
+  </bean> 
+  <bean class="springexamples.InitBeans"/>     
+</beans>

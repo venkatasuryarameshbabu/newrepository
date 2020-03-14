@@ -1,0 +1,29 @@
+package example;
+class Student{
+	String name;
+	int age;
+	String city;
+	public Student(char name,int age,char city)
+	{
+		super();
+		this.name=name;
+		this.age=age;
+		this.city=city;
+}
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", age=" + age + ", city=" + city + "]";
+	}
+	
+}
+
+public class studentCollection {
+	public static void main(String[] args)
+	{
+		Student s1=new Student("surya",22,"guntur"); 
+		Student s2=new Student("ramesh",23,"gntr");
+		Student s3=new Student("babu",24,"gnt");
+		Student s4=new Student("venkata",24,"guntoor");
+		Student s5=new Student("kaja",25,"gunture");
+	}
+}

@@ -1,0 +1,50 @@
+package example;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+//import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
+//import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils.Collections;
+
+class Student{
+	String name;
+	int age;
+	String city;
+	public Student(String name,int age,String city)
+	{
+		super();
+		this.name=name;
+		this.age=age;
+		this.city=city;
+}
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", age=" + age + ", city=" + city + "]";
+	}
+	
+}
+
+public class studentCollection {
+	public static void main(String[] args)
+	{
+		Student s1=new Student("surya",22,"guntur"); 
+		Student s2=new Student("ramesh",23,"gntr");
+		Student s3=new Student("babu",24,"gnt");
+		Student s4=new Student("venkata",25,"guntoor");
+		Student s5=new Student("kaja",26,"gunture");
+	
+	ArrayList a=new ArrayList();
+	a.add(s1);
+	a.add(s2);
+	a.add(s3);
+	a.add(s4);
+	a.add(s5);
+	//List<Integer> l=a.stream().sort(age);
+	Collections.sort(a);
+	}
+}

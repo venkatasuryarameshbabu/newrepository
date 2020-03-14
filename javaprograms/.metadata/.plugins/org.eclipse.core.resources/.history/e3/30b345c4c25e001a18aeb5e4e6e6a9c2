@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Passwordverification pv=new Passwordverification();
+		pv.verify();
+		System.out.println("enter the password to check:");
+		Scanner sc=new Scanner(System.in);
+		String s1=sc.next();
+	}
+
+}

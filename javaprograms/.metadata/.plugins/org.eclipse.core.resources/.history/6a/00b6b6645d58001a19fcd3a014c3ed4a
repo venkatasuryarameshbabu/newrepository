@@ -1,0 +1,5 @@
+package mavenpackage.mavenproject;
+
+public class Employee {
+
+}

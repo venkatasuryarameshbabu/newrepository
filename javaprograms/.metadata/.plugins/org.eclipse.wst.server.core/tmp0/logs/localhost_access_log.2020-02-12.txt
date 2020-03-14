@@ -1,0 +1,15 @@
+127.0.0.1 - - [12/Feb/2020:10:03:41 +0530] "GET / HTTP/1.1" 404 709
+127.0.0.1 - - [12/Feb/2020:10:04:32 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [12/Feb/2020:10:04:33 +0530] "GET /javbeanexample/index.html HTTP/1.1" 200 368
+0:0:0:0:0:0:0:1 - - [12/Feb/2020:10:04:44 +0530] "GET /javbeanexample/jsp.jsp?name=surya&password=ramesh&age=23 HTTP/1.1" 500 2581
+0:0:0:0:0:0:0:1 - - [12/Feb/2020:10:05:20 +0530] "GET /javbeanexample/jsp.jsp?name=suarya&password=ramesh&age=22 HTTP/1.1" 500 2581
+0:0:0:0:0:0:0:1 - - [12/Feb/2020:10:06:23 +0530] "GET /javbeanexample/index.html HTTP/1.1" 200 376
+0:0:0:0:0:0:0:1 - - [12/Feb/2020:10:06:30 +0530] "GET /javbeanexample/jspExample1.jsp?name=surya&password=ramesh&age=22 HTTP/1.1" 500 2597
+0:0:0:0:0:0:0:1 - - [12/Feb/2020:10:07:47 +0530] "GET /javbeanexample/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Feb/2020:10:07:55 +0530] "GET /javbeanexample/jspExample1.jsp?name=surya&password=ramesh&age=22 HTTP/1.1" 500 2597
+127.0.0.1 - - [12/Feb/2020:10:08:27 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [12/Feb/2020:10:08:28 +0530] "GET /javbeanexample/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Feb/2020:10:09:13 +0530] "GET /javbeanexample/jspExample1.jsp?name=surya&password=ramesh&age=22 HTTP/1.1" 200 301
+0:0:0:0:0:0:0:1 - - [12/Feb/2020:10:47:19 +0530] "GET /javbeanexample/log.html HTTP/1.1" 200 381
+0:0:0:0:0:0:0:1 - - [12/Feb/2020:10:47:30 +0530] "GET /javbeanexample/session.jsp?name=surya&password=ramesh HTTP/1.1" 200 327
+0:0:0:0:0:0:0:1 - - [12/Feb/2020:10:47:32 +0530] "GET /javbeanexample/output.jsp HTTP/1.1" 200 310

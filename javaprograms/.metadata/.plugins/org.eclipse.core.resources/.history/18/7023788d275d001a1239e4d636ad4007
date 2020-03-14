@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+h1
+{
+color:#770080;
+}
+body
+{
+background-color:#FFAACC;
+}
+</style>
+</head>
+<body>
+<h1>College   Training   Feedback   Form</h1>
+<center>
+<table>
+<tr><td>
+<label for="Participant Name">Participant Name</label>
+</td>
+<td>
+<input type="text" id="Participant Name" value="Enter your name"></br>
+</td>
+</tr>
+<tr>
+<td><label for="College Name">College Name</label>
+</td>
+<td>
+<input type="text" id="College Name"></br>
+</td>
+</tr>ui /   
+</table>
+</center>
+</body>
+</html>

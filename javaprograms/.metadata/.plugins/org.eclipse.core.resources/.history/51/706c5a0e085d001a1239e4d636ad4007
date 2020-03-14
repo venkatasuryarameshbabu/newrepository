@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<a ref="home.html">home</a></br>
+<a ref="About us.html">About us</a></br>
+<a ref="Services.html">Services</a></br>
+<a ref="Login.html">Login</a></br>
+</body>
+</html>

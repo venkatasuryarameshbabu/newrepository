@@ -1,0 +1,28 @@
+package Assessment;
+
+import java.util.Scanner;
+
+class AgeException extends Exception {
+ 
+ public AgeException(String u) {
+  System.out.println(u);
+ }
+}
+public class ExceptionHandling {
+ 
+ public static void main(String[] args) {
+  Scanner y = new Scanner(System.in);
+  System.out.print("Enter ur age here: ");
+  int age = y.nextInt();
+  
+  try {
+   if(age < 18) 
+    throw new AgeException("Invalid age");
+   else
+    System.out.println("Valid age");
+  }
+  catch (AgeException expt) {
+   System.out.println(expt);
+  }
+ }
+}

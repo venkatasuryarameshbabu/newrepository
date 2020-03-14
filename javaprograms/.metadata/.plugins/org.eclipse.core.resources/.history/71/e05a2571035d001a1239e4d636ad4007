@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="login">
+<table>
+<tr>
+<td>enter the loginid:</td>
+</tr>
+<tr>
+<td>enter the password:</td>
+</tr>
+<tr>
+<td><input type="submit" value="submit"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

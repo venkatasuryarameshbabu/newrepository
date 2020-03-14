@@ -1,0 +1,42 @@
+package Assessment;
+
+import java.util.*;
+import java.sql.*;
+
+public class jdbcpro {
+
+public static void main(String[] args) throws ClassNotFoundException,SQLException
+{
+// TODO Auto-generated method stub
+DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+Connection connection=DriverManager.getConnection
+("jdbc:mysql://localhost:3306/surya","root","root");
+String query="insert into employee values(?,?,?,?,?,?)";
+PreparedStatement pst=connection.prepareStatement(query);
+Scanner sc=new Scanner(System.in);
+
+System.out.println("Enter Customer Name");
+String name=sc.next();
+System.out.println("Enter Customer Id");
+int id=sc.nextInt();
+System.out.println("Enter Customer Department");
+String dept=sc.next();
+System.out.println("Enter Customer Designation");
+String desg=sc.next();
+System.out.println("Enter Customer Company");
+String comp=sc.next();
+System.out.println("Enter Customer EmailId");
+String email=sc.next();
+
+pst.setString(1,name);
+pst.setInt(2,id);
+pst.setString(3,dept);
+pst.setString(4,desg);
+pst.setString(5,comp);
+pst.setString(6,email);
+
+int x=pst.executeUpdate();
+System.out.println((x+ "Records Inserted..."));
+}
+
+}

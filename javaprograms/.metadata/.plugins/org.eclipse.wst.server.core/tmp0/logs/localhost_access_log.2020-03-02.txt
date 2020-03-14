@@ -1,0 +1,12 @@
+127.0.0.1 - - [02/Mar/2020:16:27:54 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:16:27:54 +0530] "GET /projectexample/home.html HTTP/1.1" 200 225
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:16:36:09 +0530] "GET /projectexample/home.html HTTP/1.1" 200 259
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:16:40:39 +0530] "GET /projectexample/home.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:16:41:13 +0530] "GET /projectexample/home.html HTTP/1.1" 404 737
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:16:41:54 +0530] "GET /projectexample/home.html HTTP/1.1" 404 737
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:16:44:14 +0530] "GET /projectexample/home.html HTTP/1.1" 404 737
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:16:44:15 +0530] "GET /projectexample/home.html HTTP/1.1" 404 737
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:16:46:36 +0530] "GET /projectexample/home.html HTTP/1.1" 404 737
+127.0.0.1 - - [02/Mar/2020:17:39:08 +0530] "GET / HTTP/1.1" 404 709
+127.0.0.1 - - [02/Mar/2020:17:42:26 +0530] "GET / HTTP/1.1" 404 709
+127.0.0.1 - - [02/Mar/2020:17:42:36 +0530] "GET / HTTP/1.1" 404 709
